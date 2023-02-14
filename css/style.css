@@ -1,0 +1,236 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+a {
+    text-decoration:none ;
+}
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    z-index: 1;
+    position: fixed;
+    width: 100%;
+    padding: 30px 0;
+}
+.header h1{
+    font-weight: 700;
+    font-size: 60px;
+    color: rgb(250, 219, 80);
+}
+#hero{
+    background: url("../img/hero1.jpg")no-repeat center/cover;
+    min-height: 100vh;
+}
+.hero {
+    padding-top: 100px;
+}
+.hero h2{
+    padding: 15px 0;
+    font-weight: 700;
+    font-size: 120px;
+    color: rgb(9, 102, 241);
+}
+.hero h1{
+    font-weight: 700;
+    font-size: 71px;
+    color: rgb(9, 102, 241);
+
+}
+/*ABOUT*/
+.about1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 100px 0;
+}
+.about-title h5 {
+    font-weight: 300;
+    font-size: 45px;
+    line-height: 52px;
+    color: #0266fc;
+    padding: 45px 0;
+    display: flex;
+    align-items: center;
+}
+.about-title h5 ion-icon{
+    width: 100px;
+    height: 100px;
+    padding-right: 50px;
+
+}
+.about-sub h5{
+    font-weight: 300;
+    font-size: 45px;
+    line-height: 52px;
+    color: #0966f1;
+    padding: 45px 0;
+    display: flex;
+    align-items: center;
+}
+.about-sub h5 ion-icon{
+    width: 100px;
+    height: 100px;
+    padding-right: 50px;
+}
+.about-title{
+    padding-right:150px;
+}
+
+#tel{
+    padding-top: 180px;
+    background: url("../img/block.png")no-repeat center/cover;
+    min-height: 100vh;
+}
+.tel{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.tel h1{
+    padding: 35px 0;
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 62px;
+    letter-spacing: 1px;
+    color: #ffffff;
+}
+.tel h3{
+    padding: 25px 0;
+    font-size: 52px;
+    line-height: 62px;
+    letter-spacing: 1px;
+    color: rgba(255, 255, 255, 0.99);
+}
+.tel-btn{
+    padding: 35px 0;
+}
+.btn-left {
+    width: 266px;
+    height: 56px;
+    border-radius: 30px;
+    background: #218F25;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+}
+.btn1{
+    width: 266px;
+    height: 56px;
+    border-radius: 30px;
+    background: #9d026a;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+
+}
+
+#prodaja{
+    padding-top: 100px;
+}
+.prod h1{
+    font-weight: 700;
+    font-size: 50px;
+    color: #0266fc;
+    padding-bottom: 50px;
+}
+.prod p {
+    font-weight: 300;
+    font-size: 19px;
+    line-height: 30px;
+    color: #000000;
+}
+.prod-img{
+    padding-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.prod-img img{
+    padding-left: 20px;
+}
+
+
+#skupka{
+    padding: 100px 0;
+}
+.skupka {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#skupka h1{
+    font-weight: 400;
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background: #0966f1;
+    height: 70px;
+    margin: 50px 0;
+}
+.skupka p{
+    font-weight: 700;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #0266fc;
+    padding-left: 35px;
+}
+
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content:  center;
+    flex-direction: column;
+}
+.footer p {
+    font-weight: 700;
+    font-size: 30px;
+    display: flex;
+    color: #0266fc;
+    line-height: 40px;
+}
+.btn-block{
+    margin: 50px 0;
+}
+.btn-1{
+    width: 266px;
+    height: 56px;
+    border-radius: 30px;
+    background: #2b2b2b;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    margin-right: 10px;
+
+}
+
+
+.btn-2{
+    width: 266px;
+    height: 56px;
+    border-radius: 30px;
+    background: #9d026a;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+}
+
+

@@ -1,0 +1,49 @@
+@media(max-width: 1400px){
+
+
+}
+@media(max-width: 1200px){
+
+
+
+}
+@media(max-width: 1024px){
+
+
+}
+@media(max-width: 992px){
+
+
+}
+@media(max-width: 768px){
+
+
+}
+@media(max-width: 576px){
+    #about1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+
+}
+@media(max-width: 451px){
+
+
+}
+@media(max-width: 376px){
+
+
+}
+@media(max-width: 320px){
+
+
+}
+
+
+
+
+
